@@ -18,7 +18,9 @@ This repository contains data and Jupyter notebooks for a comprehensive analysis
 
 ### SocialMedia:
   
-  - (Content to be added by Bangzhao)
+  - **text-classification-llama2:** Python script for classifying environment-related comments using Llama2 via zero-shot learning.
+  - **topic-detction-gpt3.5.ipynb:** Jupyter notebook for topic classification using the OpenAI API via zero-shot learning.
+  - **stance-detection.ipynb:** Jupyter notebook for stance detection using the OpenAI API via zero-shot learning.
 
 ### Correlation:
   
@@ -45,9 +47,8 @@ This repository contains data and Jupyter notebooks for a comprehensive analysis
 ## Usage
 
   - Run 'Stonelab_Lake_Erie_Final.ipynb' to generate the ecological data visualizations and analyses.
-  - **[Bangzhao]**
-  - **Run ####################### to generate the social media data visualizations and analyses**
-  - **[Bangzhao]**
+  - Enter the path of your Llama2 model, and run 'text-classification-llama2' to detect environment-related comments from the all_RC.json dataset.
+  - Enter your OpenAI API key, and run 'topic-detction-gpt3.5.ipynb' or 'stance-detection.ipynb' to do topic classification and stance detection respectively via zero-shot learning.
   - The correlation studies can be explored running 'SI699Final Project_Correlations.ipynb', which utilizes environmental and social media dataset to find patterns and insights.
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -55,7 +56,7 @@ This repository contains data and Jupyter notebooks for a comprehensive analysis
 ## Contributions
 
   - **Environmental Analysis:** Focused on data collection, preprocessing, and detailed environmental analysis.
-  - **Social Media Analysis:** **[Bangzhao]**
+  - **Social Media Analysis:** Focused on Reddit data retreival, preprocessing, text classification, topic modeling and stance detection.
   - **Correlation Analysis:** Explores how environmental changes correlate with public discourse and sentiment on social media platforms.
 
 -------------------------------------------------------------------------------------------------------------------------------------
